@@ -20,7 +20,7 @@ async function InsertVerifyUser(name, email, password) {
       token: token
     });
 
-    const activationLink = `http://localhost:5175/signin/${token}`;
+    const activationLink = `https://goglide.onrender.com/signin/${token}`;
     const content = `<h4>Hello Rider,</h4>
                      <h5>Welcome to Go Glide</h5>
                      <p>Thank You For Signing up. Click on the below link to Activate</p>
